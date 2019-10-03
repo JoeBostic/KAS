@@ -50,16 +50,28 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>Q:\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>Q:\KSP_x64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="ClickThroughBlocker">
+      <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\GameData\000_ClickThroughBlocker\Plugins\ClickThroughBlocker.dll</HintPath>
+    </Reference>
+    <Reference Include="ContractConfigurator">
+      <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\GameData\ContractConfigurator\ContractConfigurator.dll</HintPath>
     </Reference>
     <Reference Include="KAS-API-v2">
       <HintPath>..\Binaries\KAS-API-v2.dll</HintPath>
     </Reference>
+    <Reference Include="KSPAssets">
+      <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\KSPAssets.dll</HintPath>
+    </Reference>
     <Reference Include="KSPDev_Utils.1.2">
       <HintPath>..\Binaries\KSPDev_Utils.1.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Launchpad">
+      <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\GameData\ExtraplanetaryLaunchpads\Plugins\Launchpad.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <HintPath>Q:\KSP_x64_Data\Managed\System.dll</HintPath>
@@ -67,21 +79,18 @@
     <Reference Include="System.Core">
       <HintPath>Q:\KSP_x64_Data\Managed\System.Core.dll</HintPath>
     </Reference>
+    <Reference Include="ToolbarControl">
+      <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\GameData\001_ToolbarControl\Plugins\ToolbarControl.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>Q:\KSP_x64_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>Q:\KSP_x64_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>D:\Games\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="api_impl" />
-    <Folder Include="controllers" />
-    <Folder Include="modules" />
-    <Folder Include="KSPDev_candidates" />
-    <Folder Include="debug" />
-    <Folder Include="compatibility" />
-    <Folder Include="Properties" />
+    <Folder Include="KSPDev_candidates\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="api_impl\AttachNodesUtilsImpl.cs" />
